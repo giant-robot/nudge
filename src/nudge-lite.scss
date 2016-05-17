@@ -1,0 +1,41 @@
+.nudge-message {
+    font-size: 16px;
+
+    width: 30em;
+    padding: 25px;
+
+    background: #fff;
+    border-radius: 3px;
+    text-align: center;
+
+    &__title {
+        font-size: 1.75em;
+        margin-bottom: 0.8571em;
+    }
+
+    &__input {
+        margin-top: 1.5em;
+    }
+
+    &__field {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    &__actions {
+        margin-top: 1.5em;
+    }
+
+    &__button {
+        display: inline-block;
+        margin: 0 0.5em;
+        padding: 0.5em 1em;
+        border-radius: 2px;
+        background: #ececec;
+        cursor: pointer;
+
+        &:hover {
+            background: #dcdcdc;
+        }
+    }
+}

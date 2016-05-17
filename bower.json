@@ -1,0 +1,20 @@
+{
+  "name": "nudge-js",
+  "main": [
+    "dist/nudge.min.js",
+    "dist/nudge.min.css"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "gruntfile.js",
+    "bower_components",
+    "node_modules",
+    "package.json",
+    "test"
+  ],
+  "dependencies": {
+    "featherlight": "^1.4.1"
+  }
+}

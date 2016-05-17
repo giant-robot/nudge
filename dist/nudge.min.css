@@ -1,0 +1,1 @@
+@media all{.nudge{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:2147483647}.nudge:last-of-type{background:rgba(0,0,0,0.8)}.nudge-content{position:relative;float:left;top:50%;left:50%;transform:translateX(-50%) translateY(-50%);max-width:95%;max-height:95%;overflow:auto}.nudge-inner{box-sizing:border-box;max-width:100%}}

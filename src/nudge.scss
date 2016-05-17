@@ -1,0 +1,39 @@
+@media all {
+    .nudge {
+        display: none;
+
+        /* dimensions: spanning the background from edge to edge */
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2147483647; /* z-index needs to be >= elements on the site. */
+
+        /* support for nested modals. */
+        &:last-of-type {
+            background: rgba(0, 0, 0, 0.8);
+        }
+    }
+
+    .nudge-content {
+        /* make content container for positioned elements (close button) */
+        position: relative;
+
+        /* position: centering vertical and horizontal regardless of width */
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        /* dimensions: handling large content */
+        max-width: 95%;
+        max-height: 95%;
+        overflow: auto;
+    }
+
+    .nudge-inner {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+}

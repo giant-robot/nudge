@@ -1,0 +1,13 @@
+{
+  "name": "nudge-js",
+  "devDependencies": {
+    "autoprefixer": "",
+    "grunt": "",
+    "grunt-cli": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-watch": "",
+    "grunt-newer": "",
+    "grunt-postcss": "",
+    "grunt-sass": ""
+  }
+}
