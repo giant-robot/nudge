@@ -1,11 +1,10 @@
 {
-  "name": "nudge-js",
+  "name": "giant-nudge",
   "main": [
     "dist/nudge.min.js",
     "dist/nudge.min.css"
   ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "gruntfile.js",
@@ -15,6 +14,6 @@
     "test"
   ],
   "dependencies": {
-    "featherlight": "^1.4.1"
+    "featherlight": ""
   }
 }
