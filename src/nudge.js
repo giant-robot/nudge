@@ -36,14 +36,11 @@
         prompt: false,
         promptDefault: '',
         namespace: 'nudge-message',
-        onConfirm: function (alert) {
-            alert.close();
+        onConfirm: function (modal) {
+            modal.close();
         },
-        onCancel: function (alert) {
-            alert.close();
-        },
-        onInput: function (value) {
-            return value;
+        onCancel: function (modal) {
+            modal.close();
         },
         onInput: $.noop,
         modal: {
