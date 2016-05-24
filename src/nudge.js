@@ -45,6 +45,7 @@
         onInput: function (value) {
             return value;
         },
+        onInput: $.noop,
         modal: {
             namespace: 'nudge',
             closeOnClick: false,
