@@ -57,6 +57,8 @@
      */
     Nudge.prototype.give = function (options) {
 
+        var _this = this;
+
         // Spawn a new config object.
         options = (typeof options === 'string') ? {message: options} : options;
 
@@ -126,15 +128,15 @@
                 modal.$content.find('.' + config.namespace + '__button--confirm').click(function () {
                     if (config.prompt)
                     {
-                        config.onInput(modal.$content.find('.' + config.namespace + '__field').val());
+                        config.onInput.call(_this, modal.$content.find('.' + config.namespace + '__field').val());
                     }
-                    config.onConfirm(modal);
+                    config.onConfirm.call(_this, modal);
                     return false;
                 });
 
                 // Cancelled.
                 modal.$content.find('.' + config.namespace + '__button--cancel').click(function () {
-                    config.onCancel(modal);
+                    config.onCancel.call(_this, modal);
                     return false;
                 });
             },
