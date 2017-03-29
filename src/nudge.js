@@ -139,6 +139,9 @@
                     config.onCancel.call(_this, modal);
                     return false;
                 });
+
+                // Add a "ready" class to the modal.
+                modal.$instance.addClass(config.modal.namespace + '--ready');
             },
 
             // Switch focus to the prompt input field.
