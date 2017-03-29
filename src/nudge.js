@@ -85,12 +85,12 @@
         // Put the content together based on the current config.
         if (config.title)
         {
-            $content.append($heading.text(config.title));
+            $content.append($heading.html(config.title));
         }
 
         if (config.message)
         {
-            $content.append($message.text(config.message));
+            $content.append($message.html(config.message));
         }
 
         if (config.prompt)
