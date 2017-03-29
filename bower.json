@@ -1,8 +1,8 @@
 {
   "name": "giant-nudge",
   "main": [
-    "dist/nudge.min.js",
-    "dist/nudge.min.css"
+    "src/nudge.js",
+    "src/nudge.scss"
   ],
   "license": "MIT",
   "ignore": [
