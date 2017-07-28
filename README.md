@@ -1,10 +1,10 @@
-#Introductions
+# Introductions
 
 Nudge is a very light replacement for JavaScript's `alert()` based on the excellent [Featherlight](https://github.com/noelboss/featherlight) jQuery lightbox plugin. 
 
 It is simple, uses sensible css (everything is name-spaced using BEM conventions), it's completely customizable and the girls love it!
 
-##Installation
+## Installation
 
 Nudge requires [jQuery](http://jquery.com/download/) and [Featherlight](https://github.com/noelboss/featherlight/releases/latest).
 
@@ -24,7 +24,7 @@ and maybe also include the most absolutely minimal theme from:
 If you're a Sassy person, you might find `src/nudge.scss` and `src/nudge-lite.scss` handy. Just saying.
 
 
-##Usage
+## Usage
 You can create (and store) Nudges by instantiating the globally exposed class `Nudge`:
 
 ```js
@@ -43,7 +43,7 @@ You can even create and show Nudges on-the-fly:
 Nudge.give(options);
 ```
 
-###Options
+### Options
 
 Whether you're creating a new instance, showing an instance or showing a Nudge on-the-fly, you can define the options you need to set in the form of a JavaScript object.
 
@@ -115,7 +115,7 @@ By default, the following options are set:
 }
 ```
 
-###Methods
+### Methods
 
 **give(`String|Object options`)**  
 Show a Nudge using the supplied options. 
@@ -123,7 +123,7 @@ Show a Nudge using the supplied options.
 * When the parameter passed is a string, it is used to override the current `message` option, keeping the other settings intact.  
 * When the parameter passed is an object, it is used to extend the current settings object.
 
-##Examples
+## Examples
 
 If you haven't gotten the picture already, here are some examples to get you started.
 
