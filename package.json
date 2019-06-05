@@ -1,5 +1,9 @@
 {
   "name": "nudge-js",
+  "main": "src/nudge.js",
+  "unpkg": "dist/nudge.min.js",
+  "style": "dist/nudge.min.css",
+  "sass": "src/nudge.scss",
   "devDependencies": {
     "autoprefixer": "",
     "grunt": "",
@@ -9,5 +13,16 @@
     "grunt-newer": "",
     "grunt-postcss": "",
     "grunt-sass": ""
+  },
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "featherlight": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giant-robot/nudge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giant-robot/nudge/issues"
   }
 }
