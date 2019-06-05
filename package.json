@@ -15,7 +15,7 @@
     "grunt-sass": ""
   },
   "dependencies": {
-    "jquery": "^2.2.4",
+    "jquery": ">=3.4.0",
     "featherlight": "^1.4.0"
   },
   "repository": {
