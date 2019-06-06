@@ -1,7 +1,7 @@
 {
   "name": "nudge-js",
   "description": "Thin replacement for JavaScript's alert().",
-  "version": "1.0.7",
+  "version": "1.0.6-1",
   "main": "src/nudge.js",
   "unpkg": "dist/nudge.min.js",
   "style": "dist/nudge.min.css",
