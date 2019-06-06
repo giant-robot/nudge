@@ -22,9 +22,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/giant-robot/nudge.git"
+    "url": "git+https://github.com/industrialists/nudge.git"
   },
   "bugs": {
-    "url": "https://github.com/giant-robot/nudge/issues"
+    "url": "https://github.com/industrialists/nudge/issues"
   }
 }
