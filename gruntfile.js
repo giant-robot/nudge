@@ -1,6 +1,7 @@
 /* globals module, require */
 module.exports = function (grunt) {
     "use strict";
+    const sass = require('node-sass');
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -13,6 +14,7 @@ module.exports = function (grunt) {
         },
         sass: {
             options: {
+                implementation: sass,
                 outputStyle: 'compressed'
             },
             dist: {
@@ -25,7 +27,7 @@ module.exports = function (grunt) {
         postcss: {
             options: {
                 processors: [
-                    require('autoprefixer')({browsers: 'last 2 versions'})
+                    require('autoprefixer')()
                 ]
             },
             dist: {

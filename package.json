@@ -14,7 +14,8 @@
     "grunt-contrib-watch": "",
     "grunt-newer": "",
     "grunt-postcss": "",
-    "grunt-sass": ""
+    "grunt-sass": "",
+    "node-sass": ""
   },
   "dependencies": {
     "jquery": ">=3.4.0",
@@ -26,5 +27,10 @@
   },
   "bugs": {
     "url": "https://github.com/industrialists/nudge/issues"
-  }
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ]
 }
